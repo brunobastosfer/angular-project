@@ -1,27 +1,58 @@
-# MyApp
+# Projeto Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Projeto para exibir uma lista de tarefas. Nele é possível atualizar uma todo, deletar e criar uma todolist
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em sua máquina.
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação das Dependências
 
-## Build
+Abra um terminal na pasta do seu projeto Angular e execute o seguinte comando para instalar as dependências:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+npm install
+```
 
-## Running unit tests
+Este comando instalará todas as dependências listadas no arquivo `package.json`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Executando o Servidor de Desenvolvimento
 
-## Running end-to-end tests
+Após a instalação das dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng serve
+```
 
-## Further help
+O servidor estará rodando em `http://localhost:4200/`. Abra seu navegador e acesse este endereço para visualizar o aplicativo Angular em execução.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Build do Projeto
+
+Se você precisar compilar o projeto para produção, utilize o seguinte comando:
+
+```bash
+ng build --prod
+```
+
+Os arquivos compilados serão armazenados no diretório `dist/`. Esses arquivos podem ser implantados em um servidor web para produção.
+
+## Executando Testes
+
+Para executar testes unitários, utilize o seguinte comando:
+
+```bash
+ng test
+```
+
+Para realizar testes end-to-end, utilize o seguinte comando:
+
+```bash
+ng e2e
+```
+
+## Mais Informações
+
+Para obter mais informações sobre o Angular, consulte a [documentação oficial do Angular](https://angular.io/).
